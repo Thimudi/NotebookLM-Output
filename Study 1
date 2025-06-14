@@ -1,0 +1,73 @@
+Summarize the key characteristics of cloud computing mentioned in this document. 
+The sources state that the National Institute of Standards and Technology identifies five key characteristics that make cloud computing suitable for information technology applications and services. These characteristics are:
+On-demand self-service: This allows cloud services, such as server time, storage, web applications, computing power, and networks, to be delivered automatically to consumers as needed, without requiring human interaction.
+Resource pooling: Cloud providers pool their computing resources to accommodate multiple customers. This is achieved through virtualisation, which uses virtual machines to replicate physical hardware, or through "multi-tenancy," which enables multiple users to share the same resources. Resources are dynamically assigned and reassigned based on changing consumer demand. This paradigm is inspired by economies of scale and resource specialisation. Customers are generally unaware of the physical location or composition of the resources they use.
+Broad network access: Numerous clients (applications) can access the necessary computer resources through a network, primarily the internet. This access is available across a range of platforms, including laptops, microcomputers, and mobile phones, all present at the consumer's end. Broadband network connectivity helps to expand the benefits of cloud computing.
+Rapid elasticity: This characteristic, mentioned twice under separate headings but with the same description in the source, enables cloud computing resources to be swiftly supplied and deployed with minimal administrative effort or service provider interaction. The phrasing implies that resources can be scaled up or down quickly to meet fluctuating demand, although the description provided within the "Rapid elasticity" subsection itself mainly reiterates the broad network access. However, the general definition of cloud computing by the National Institute of Standards and Technology also mentions that resources can be "swiftly supplied and deployed".
+Measured service: In a cloud environment, multiple users may share computer resources (multi-tenancy), and the cloud infrastructure can use tools to monitor how each user is utilising these resources. Cloud computing metering methods allow for the individual invoicing of numerous cloud users based on their consumption.
+
+List the benefits of cloud computing described in the paper.
+Cloud computing offers several significant benefits, as outlined in the provided document:
+Cost reduction:
+It allows commercial organisations to pay less for information technology resources, which enhances performance and profitability.
+Customers are required to pay only according to their usage. For instance, if an application is needed for a brief period, customers only pay the application's license fees for that duration.
+It reduces the cost of purchasing unneeded resources and applications.
+Users can benefit from continual upgrades and maintenance without associated costs and time constraints, as the service provider owns and hosts the services.
+Clients are not required to create data backups, as cloud service providers use several redundant locations for data storage, which is beneficial for business continuity and incident recovery, alleviating concerns about data loss and recovery.
+This is especially cost-effective for smaller businesses that aim to save costs, as they don't have to pay a fixed amount for a dedicated data centre hosting but can scale up the space needed on a dedicated server.
+Increased productivity:
+Cloud computing helps businesses meet consumer demands for faster product delivery by providing IT solutions like collaborative online services and remote access applications.
+Cloud-based business applications are constantly and everywhere accessible to users through computer systems that are online or in the cloud.
+Organisations and businesspersons can use cloud-based applications from various suppliers to arrange meetings and send/receive emails or messages.
+Cloud computing has also improved mobility, allowing businesses to access cloud services using devices like laptops or smartphones equipped with a web browser.
+Scalability:
+Cloud computing is a scalable model that enables on-demand company scalability. This applies to various service models such as SaaS, PaaS, and IaaS.
+A business can reduce the number of virtual servers it uses at any time depending on the current demand for services.
+It allows businesses to adjust the required space or adapt to their preferred pattern of growth.
+
+What are the challenges of cloud computing mentioned by the authors?
+The authors highlight several significant challenges of cloud computing that organisations may encounter when deploying cloud infrastructure services:
+Security and privacy: This encompasses the organisational and technical difficulties in maintaining an adequate level of data privacy and security within cloud services. Serious security and privacy concerns arise, especially for critical or sensitive business data, such as that held by banks or government entities using the cloud. Despite the general agreement on the need for Service Level Agreements (SLAs) between providers and customers, formal safety requirements are currently lacking. Specific issues include machine detection, side-channel assaults, encryption, and authentication.
+Interoperability and portability: Issues arise with the portability of services between different cloud providers. This problem stems from a lack of defined formats and interfaces for managing virtual appliances, as well as an absence of uniform interfaces for interacting with various clouds. Currently, there is no standardised way to communicate with clouds, as many providers offer distinct Application Programming Interfaces (APIs). Standardising APIs across cloud service providers is necessary to develop a common cloud interface.
+Legal issues: The utility-like use of cloud resources has brought forth numerous legal concerns. A primary problem is data placement, as different regions and jurisdictions have vastly different laws and regulations regarding where, how, and for how long data should be stored. Compliance requirements may also differ regarding the disclosure of data, particularly sensitive data from sectors like finance and health. Another significant issue is the absence of comprehensive legislation on liability in the cloud, in addition to problems with identity definition (e.g., users versus systems) and issues of authentication and authorisation.
+Economic Challenges: These relate to the cost-benefit aspect of cloud computing. Cloud service companies must develop efficient monetisation plans that yield a respectable return on their efforts. This involves creating viable pricing structures, implementing licensing plans, and grouping resources. Since diverse providers handle invoicing and payments, it can be difficult to ascertain the type, calibre, and availability of services for which the consumer is paying, making financial benchmarking and evaluation of different providers challenging.
+Data Management: With the rise of data-intensive applications at a large scale, there is an increased need for efficient data management solutions. This includes aspects of data storage, such as segmentation, recovery, location, authenticity, anonymisation, and backup. Data retrieval and processing across different data centres also present problems in cloud computing.
+Service Management: The cloud-based IT strategy faces various difficulties in service management. Providing individualized and more context-sensitive services presents another challenge. Managing the service life cycle and service registry has also proven difficult for various reasons.
+Quality: A fundamental problem in cloud service quality is the design and implementation of service-level agreements (SLAs). The lack of a clear service-level contract between cloud firms makes cloud adoption more difficult, as it impacts user confidence in the reliability and availability of services. Negotiation and benchmarking are challenging due to the absence of a clear set of service level targets and quality of service assessments. The quality of the user experience, especially for multimedia, streaming video, and online gaming, is also a consideration.
+Overall, while cloud computing offers numerous advantages, organisations adopting it must carefully consider these inherent challenges, particularly security and privacy, which are highlighted as a key challenge to address.
+
+Explain the different service models of cloud computing according to the research.
+The research identifies three popular service models for cloud computing, with an additional fourth model also discussed. These models classify cloud services and include:
+Infrastructure-as-a-Service (IaaS):
+In IaaS, cloud users directly utilise the necessary computer resources and information technology infrastructure provided by the cloud, such as processing power, storage, and networks.
+Virtualisation is frequently employed in the IaaS cloud to combine and separate physical resources as needed, meeting the variable resource demands of cloud users.
+The core virtualisation strategy involves creating distinct virtual machines (VMs) that are isolated from both the underlying hardware and other VMs.
+The multi-tenancy paradigm allows multiple instances (from separate cloud users) to operate on a single application, which alters the software architecture.
+Examples include Google, App Engine, Microsoft Azure, Java, and developer tools.
+Platform-as-a-Service (PaaS):
+PaaS provides a development platform that enables cloud users to build cloud services and applications, supporting the entire "software lifecycle".
+Unlike SaaS, which only hosts finished cloud applications, PaaS hosts both finished and in-progress cloud applications.
+Consequently, PaaS offers a hosting environment in addition to development infrastructure, including configuration management, tools, and programming environments.
+Examples of PaaS include Microsoft Azure, Google App Engine, developer tools, and Java.
+Software-as-a-Service (SaaS):
+SaaS allows a variety of customers with network access to use programs published by cloud providers in a hosting environment, such as web browsers.
+To achieve economies of scale and optimisation in terms of speed, availability, disaster recovery, maintenance, and security, users of applications from various cloud consumers are grouped on the SaaS cloud within a single logical environment.
+The cloud infrastructure commonly employs a multi-tenancy system architecture and is not under the user's control.
+Examples include Salesforce, Google Docs, and Google.
+Data Storage-as-a-Service (DaaS):
+DaaS is described as virtualised storage made available on demand, functioning as a separate cloud service. It is considered a unique type of IaaS.
+This model addresses the issue of expensive upfront costs associated with on-premises enterprise database systems, which typically involve dedicated servers, software licenses, post-delivery services, and internal IT maintenance.
+With DaaS, customers only pay for the services they use, rather than purchasing a site license for an entire database.
+Some DaaS providers offer table-style abstractions that store and retrieve large amounts of data in a highly compressed timescale, alongside more traditional storage interfaces like file systems and relational database management systems (RDBMS), which are often too large, slow, and expensive.
+
+What are cloud computing's characteristics?
+According to the research, cloud computing possesses five key characteristics, as defined by the National Institute of Standards and Technology:
+On-demand self-service: Cloud services such as server time, storage, web applications, computing power, and networks can be automatically delivered to consumers as needed, without requiring human interaction.
+Resource pooling: Cloud providers centralise their computing resources to accommodate multiple customers. This is achieved through virtualisation, which replicates physical hardware using virtual machines, or multi-tenancy, allowing multiple users to share the same resources. Resources are dynamically assigned and reassigned based on changing consumer demand. This model is inspired by economies of scale and resource specialisation, where customers are often unaware of the physical location or composition of the resources they are utilising.
+Broad network access: Cloud computing benefits are expanded through broadband network connectivity. This enables numerous clients and applications to access the required computer resources via a network, typically the internet, using a range of platforms including laptops, microcomputers, and mobile phones at the consumer's end.
+Rapid elasticity: Similar to broad network access, rapid elasticity means that cloud computing benefits can be expanded due to broadband network connectivity. This allows many clients and applications to access necessary computer resources through a network (mostly the internet) using various platforms like laptops, microcomputers, and mobile phones.
+Measured service: In a cloud environment, even though multiple users may share computer resources (multi-tenancy), the cloud infrastructure employs tools to monitor how each user is utilising these resources. Cloud computing metering methods allow for the individual invoicing of numerous cloud users, ensuring that customers only pay for what they use.
+
+
+
+
