@@ -1,0 +1,49 @@
+What are the benefits of cloud scalability?
+The sources highlight several benefits of cloud scalability, primarily through the characteristic of rapid elasticity and its economic advantages.
+The benefits of cloud scalability include:
+On-demand company scalability: Cloud computing is described as a scalable model that enables businesses to adjust their resource levels to match operational needs on demand. The IT team can adapt resources to changing and erratic requirements.
+Dynamic resource adjustment: A business can reduce or expand the number of virtual servers it uses at any time, depending on the current demand for services. This means they can adjust the resources (e.g., storage or processing power) to their preferred pattern of growth or decrease them when not needed.
+Cost-effectiveness: This dynamic adjustment is especially cost-effective for smaller businesses that are trying to save costs. Small businesses are not required to pay a fixed amount for a dedicated data centre hosting but can scale up the kind of space needed on a dedicated server, which significantly saves the company cost.
+Broad network access and platform flexibility: Cloud computing's benefits are expanded through broad network connectivity (often the internet), allowing numerous clients and applications to access necessary computer resources using a range of platforms such as laptops, microcomputers, and mobile phones. This enables flexibility in how and where resources are accessed and scaled.
+Multi-tenancy and virtualisation: Resource pooling, often achieved through virtualisation (replicating physical hardware using virtual machines) or multi-tenancy (allowing multiple users to share the same resources), supports scalability by enabling dynamic assignment and reassignment of resources based on changing consumer demand.
+
+What is a Cloud Adoption Framework?
+A Cloud Adoption Framework (CAF) is a collection of processes, tools, and best practices designed to guide a business on its journey to adopting cloud computing.
+While each cloud provider, such as AWS, GCP, and Azure, has its own version of these frameworks, they all revolve around addressing key questions related to cloud adoption:
+Why?
+What?
+How?
+At what cost?
+Whom?
+When?
+
+Describe cloud migration strategies.
+Cloud migration strategies are approaches a business can take when moving its existing digital assets or applications to a cloud platform. The sources outline five common strategies:
+Rehost:
+This strategy is also known as Infrastructure-as-a-Service (IaaS) or "lift and shift".
+You rehost your application in another hardware environment without changing the app’s architecture.
+The migration is fast and relatively inexpensive.
+However, the ongoing operation can be costly because you're not leveraging cloud efficiencies.
+Refactor:
+Also known as Platform-as-a-Service (PaaS).
+You run your applications on a cloud provider's infrastructure.
+Developers can reuse languages, frameworks, and containers, leveraging code that is strategic to the company.
+The downsides include missing capabilities, transitive risk, and framework lock-in.
+Revise:
+This strategy involves first modifying or extending the existing code to support legacy-modernisation requirements.
+After modification, you then take the rehost or refactor route to the cloud.
+This allows you to leverage the cloud characteristics of your provider's infrastructure, but it comes with some upfront development expense.
+Rebuild:
+In this approach, you discard the code for an existing application and rearchitect it.
+The main advantage is access to innovative features in the provider’s platform that improve developer productivity.
+The cost is either lock-in or abandoning your application assets if the situation becomes unacceptable.
+Replace:
+This strategy involves discarding your existing application set and adopting commercial software delivered as a service (SaaS).
+When requirements for a business function change quickly, this approach avoids the time and investment of mobilising a development team.
+However, you may face issues such as inconsistent data semantics, difficult data access, and vendor lock-in.
+
+What are three cloud migration strategies?
+Cloud migration strategies are approaches a business can take when moving its existing digital assets or applications to a cloud platform. The sources outline five common strategies, and here are three of them:
+Rehost: Also known as Infrastructure-as-a-Service (IaaS) or "lift and shift". With this strategy, you rehost your application in another hardware environment without changing the app’s architecture. The migration is typically fast and relatively inexpensive, but the ongoing operation can be costly because you are not fully leveraging cloud efficiencies.
+Refactor: This strategy is also known as Platform-as-a-Service (PaaS). It involves running your applications on a cloud provider’s infrastructure. Developers can reuse languages, frameworks, and containers, leveraging code that is strategic to the company. However, potential downsides include missing capabilities, transitive risk, and framework lock-in.
+Revise: This approach first requires you to modify or extend the existing code to meet legacy-modernisation requirements. After these modifications, you then take either the rehost or refactor route to the cloud. This allows you to leverage the cloud characteristics of your provider’s infrastructure, though it comes with some upfront development expense.
